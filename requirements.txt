@@ -1,0 +1,8 @@
+django
+djangorestframework
+markdown
+django-filter
+djangorestframework-simplejwt
+pytest
+pytest-django
+mixer
