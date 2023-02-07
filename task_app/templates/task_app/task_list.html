@@ -1,0 +1,8 @@
+<h1>Task List</h1>
+
+{% for task in tasks %}
+  <h2>{{ task.title }}</h2>
+  <p>{{ task.description }}</p>
+  <p>Completed: {{ task.completed }}</p>
+  <p>Created at: {{ task.created_at }}</p>
+{% endfor %}
